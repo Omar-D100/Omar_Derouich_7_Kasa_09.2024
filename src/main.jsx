@@ -4,6 +4,7 @@ import  Header from "./components/Header";
 import  Home from "./pages/Home";
 import  Footer from "./components/Footer";
 import  About from "./pages/About";
+import  House  from "./pages/House";
 import  Error from "./pages/Error";
 
 
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         
         <Route path="/" element={<Home />} />
+        <Route path="/house/:id" element={<House />} />
         <Route path="/about" element={<About />} />
         <Route path="/404" element={<Error />} />
         <Route path="*" element={<Error />} />
