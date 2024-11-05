@@ -1,7 +1,7 @@
 import logo from "../../assets/images/logo-footer.png";
 import styles from "./style.module.scss";
 
-export const Footer = () =>  {
+ const Footer = () =>  {
   return (
     <footer>
       <img  className={styles.footer_logo} src={logo} alt="Logo Kasa" />
@@ -9,5 +9,7 @@ export const Footer = () =>  {
     </footer>
   );
 }
+
+export default Footer;
 
 

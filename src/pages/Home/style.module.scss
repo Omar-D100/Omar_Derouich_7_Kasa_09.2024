@@ -6,7 +6,9 @@
     .card_container{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        row-gap: 25px;
+
         margin: 60px 0 60px 0;
             padding: 40px;
             background-color: variables.$secondary-color;

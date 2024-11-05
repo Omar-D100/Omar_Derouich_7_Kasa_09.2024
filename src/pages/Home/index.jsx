@@ -1,11 +1,11 @@
-import { Banner } from "../../components/Banner/Banner";
-import { HousingCard } from "../../components/HousingCard/HousingCard";
+import  Banner  from "../../components/Banner";
+import  HouseCard from "../../components/HouseCard";
 import picture from "../../assets/images/banner-home.png";
 import styles from "./style.module.scss";
 import json from "../../assets/json/housing.json";
 import { useNavigate } from "react-router-dom";
 
-export function Home() {
+const Home = () =>  {
   const navigate = useNavigate();
 
   return (
@@ -20,9 +20,9 @@ export function Home() {
           <div
             className={styles.galleryItem_container}
             key={item.id}
-            onClick={() => navigate("/housing/" + item.id)}
+            onClick={() => navigate("/house/" + item.id)}
           >
-            <HousingCard
+            <HouseCard
               key={item.id}
               title={item.title}
               picture={item.pictures}
@@ -34,3 +34,5 @@ export function Home() {
     </main>
   );
 }
+
+export default Home;

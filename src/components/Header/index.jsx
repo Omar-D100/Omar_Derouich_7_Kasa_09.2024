@@ -16,7 +16,7 @@ const Header = () =>  {
               to="/"
               className={({ isActive }) => (isActive ? styles.active_link : "")}
             >
-              ACCUEIL
+              Accueil
             </NavLink>
           </li>
           <li>
@@ -24,7 +24,7 @@ const Header = () =>  {
               to="/about"
               className={({ isActive }) => (isActive ? styles.active_link : "")}
             >
-              A PROPOS
+              A Propos
             </NavLink>
           </li>
         </ul>
