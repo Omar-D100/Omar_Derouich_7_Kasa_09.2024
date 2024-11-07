@@ -11,9 +11,9 @@ function Collaps({ buttonText, description, equipement }) {
 
   return (
     <article className={styles.container}>
-      <div className={styles.button_title} >
+      <div className={styles.button_title} onClick={toggleDropdown} >
         {buttonText}
-        <button className={styles.toggle_button} onClick={toggleDropdown}>
+        <button className={styles.toggle_button} >
           <FontAwesomeIcon
             icon={faChevronUp}
             style={{

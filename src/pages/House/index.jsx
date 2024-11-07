@@ -1,8 +1,8 @@
 import styles from "./style.module.scss";
 import {Navigate, useParams} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import housing from "../../assets/json/housing.json";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
+import housing from "../../assets/json/housing.json";
 import Carousel from "../../components/Caroussel";    
 import  Collaps  from "../../components/Collaps";
 
