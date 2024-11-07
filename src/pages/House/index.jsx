@@ -26,7 +26,7 @@ import  Collaps  from "../../components/Collaps";
         
         <main className={styles.house_main}>
           <Carousel />
-          <h1 className={styles.house_title}>{house.title}</h1> 
+          <h1 className={styles.house_title}>{house.title}</h1>
           <h2 className={styles.house_location}>{house.location}</h2>
           <h3 className={styles.house_tags}>
             {house.tags.map((item) => (

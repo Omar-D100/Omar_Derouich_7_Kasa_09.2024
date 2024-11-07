@@ -9,7 +9,6 @@ body{
     margin: 0 auto;
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
 main{
@@ -22,8 +21,7 @@ main{
     line-height: 25px;
     font-weight: 500;
     margin-bottom: 10px;
-    color: variables.$primary-color;
-    
+    color: variables.$primary-color;  
 }
 
 .house_location{
@@ -35,9 +33,7 @@ main{
 .house_tags{
         display: flex;
         margin: 5px 0;
-
 }
-
 
 .housse_article_host{
     display: flex;
@@ -116,17 +112,12 @@ main{
 
 .house_host_contenair{
     display: block;
-
-
 }
 
-
 .house_information{  
-
         > * {
             width: 100%;
-        }   
-    
+        }       
 }
 
 
@@ -202,7 +193,6 @@ main{
         margin-left: 10px;
     }
     
-
     .host_name{
         width: 70px;
         font-size: 12px;
